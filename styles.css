@@ -380,6 +380,8 @@ nav {
 }
 .apps a:hover .card-image-description {
   translate: 0;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .description {
   color: var(--brand-color);
@@ -413,13 +415,14 @@ nav {
   background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   padding: 12px 24px;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--cornflower, #e7e9fc);
 }
 .service-buttons:hover,
 .service-buttons:focus {
   background-color: #404bbf;
   color: white;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -461,6 +464,7 @@ li {
   border-radius: 50%;
   padding: 12px;
   background-color: var(--primary-brand, #4d5ae5);
+  cursor: pointer;
 }
 .media-icon-round:hover,
 :focus {
