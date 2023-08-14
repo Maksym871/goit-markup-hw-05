@@ -274,6 +274,9 @@ nav {
 .our-team {
   background: var(--cloud, #f4f4fd);
   padding: 120px 0;
+  margin: 0 auto;
+  width: 1440px;
+  height: 780px;
 }
 .third-header {
   font-size: 20px;
@@ -395,6 +398,9 @@ nav {
 .footer-background {
   background: #2e2f42;
   padding: 100px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 312px;
 }
 .footer-description {
   color: #f4f4fd;
